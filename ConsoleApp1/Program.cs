@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,8 +20,8 @@ namespace ConsoleApp1
 
             //task 2
             /*Console.Write("Введите название футбольной команды ");
-            string name=Console.ReadLine();
-            Console.WriteLine($"{name} - Чемпион!.");
+            string team=Console.ReadLine();
+            Console.WriteLine($"{team} - Чемпион!.");
             Console.Read();*/
 
             //Task 3
@@ -33,25 +34,45 @@ namespace ConsoleApp1
 
             //task 4
             /*Console.Write("Введите государство ");
-            string name = Console.ReadLine();
+            string state = Console.ReadLine();
             Console.Write("Введите Столицу ");
-            string name1 = Console.ReadLine();
-            Console.WriteLine($"Столица государста {name1} - город {name}");
+            string capital = Console.ReadLine();
+            Console.WriteLine($"Столица государста {state} - город {capital}");
             Console.Read();*/
 
             //task 5
             /*Console.Write("Введите название романа ");
             string roman = Console.ReadLine();
             Console.Write("Введите его автора ");
-            string autor = Console.ReadLine();
-            Console.WriteLine($"Писатель {autor} — автор романа {roman}");
+            string author = Console.ReadLine();
+            Console.WriteLine($"Писатель {author} — автор романа {roman}");
             Console.Read();*/
 
             //task 6
             /*Console.Write("Введите название футбольного клуба ");
-            string name = Console.ReadLine();
-            Console.WriteLine($"Количество символов:{name.Length}");
+            string club = Console.ReadLine();
+            Console.WriteLine($"Количество символов:{club.Length}");
             Console.Read();*/
+
+            //Task 7
+            /*Console.WriteLine("Ты вчера был болен.");
+            Console.WriteLine("Измерь - ка температуру!");
+            Console.Write("Сообщи, какая у тебя температура: ");
+            double temperature = double.Parse(Console.ReadLine());
+            if (temperature > 37.2)
+            {
+                Console.WriteLine("Ты ещё не до конца здоров.");
+                Console.WriteLine("Тебе стоит ещё побыть дома.");
+                Console.WriteLine("Выздорваливай !");
+            }
+
+            else
+            {
+                Console.WriteLine("Ты здоров, дружок!");
+                Console.WriteLine("Можешь идти в школу.");
+                Console.WriteLine("Желаю успехов!");
+            }
+                Console.Read();*/
 
             //task 8
             /*Console.Write("Здравствуй, я компьютер, а тебя как зовут? ");
